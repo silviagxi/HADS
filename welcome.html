@@ -1,0 +1,9 @@
+<html><head><link rel="STYLESHEET" type="text/css" href="Sedna/css/styles.css"/>
+<title>QUIZ</title> <h2>Bienvenido %(email)s</h2></head>
+<body><p size="15">Si quieres anadir o ver preguntas super interesantes..</p>
+<form method="post"> <table> 
+<tr> <td class="label"> Email </td> <td> <input type="text" name="email" value="%(email)s"> </td> <td class="error"> %(email_error)s </td> </tr> 
+<tr> <td class="label">Password</td><td> <input type="password" name="password" value="%(password)s" autocomplete="off"> </td><td class="error"> %(password_error)s </td> </td></tr>
+</table><input type="submit">
+<p>Si todavia no te has registrado, hazlo <a href="/registro">aqui</a></p>
+</body></html>
